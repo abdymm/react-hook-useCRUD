@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import Add from "./Add";
+import AddOrEdit from "./AddOrEdit";
 import List from "./List";
 
 function User() {
@@ -48,7 +48,7 @@ function User() {
       <h1>USER</h1>
       <Row>
         <Col>
-          <Add initialUser={initialUser} user={user} onAddUser={onAddUser}  onUpdateUser={onUpdateUser} />
+          <AddOrEdit initialUser={initialUser} editedUser={user} onAddUser={onAddUser}  onUpdateUser={onUpdateUser} />
         </Col>
         <Col>
           <List
