@@ -2,7 +2,7 @@
   "name": "react-hook-use-crud",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://abdymm.github.io/react-hook-useCRUD",
+  "homepage": "https://abdymm.github.io/react-hook-useCRUD",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
