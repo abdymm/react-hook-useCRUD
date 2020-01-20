@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-hook-useCRUD/static/css/main.27fd15f6.chunk.css",
+    "main.js": "/react-hook-useCRUD/static/js/main.7d4762c7.chunk.js",
+    "main.js.map": "/react-hook-useCRUD/static/js/main.7d4762c7.chunk.js.map",
+    "runtime-main.js": "/react-hook-useCRUD/static/js/runtime-main.9ddd6476.js",
+    "runtime-main.js.map": "/react-hook-useCRUD/static/js/runtime-main.9ddd6476.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/react-hook-useCRUD/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.19a5bf3b.chunk.js": "/react-hook-useCRUD/static/js/2.19a5bf3b.chunk.js",
+    "static/js/2.19a5bf3b.chunk.js.map": "/react-hook-useCRUD/static/js/2.19a5bf3b.chunk.js.map",
+    "index.html": "/react-hook-useCRUD/index.html",
+    "precache-manifest.8aa3b6f3068fb167a9a0ac0a03743fff.js": "/react-hook-useCRUD/precache-manifest.8aa3b6f3068fb167a9a0ac0a03743fff.js",
+    "service-worker.js": "/react-hook-useCRUD/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/react-hook-useCRUD/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.27fd15f6.chunk.css.map": "/react-hook-useCRUD/static/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.19a5bf3b.chunk.js.LICENSE": "/react-hook-useCRUD/static/js/2.19a5bf3b.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ddd6476.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.19a5bf3b.chunk.js",
+    "static/css/main.27fd15f6.chunk.css",
+    "static/js/main.7d4762c7.chunk.js"
+  ]
+}
