@@ -4,55 +4,52 @@ import AddOrEdit from "./AddOrEdit";
 import List from "./List";
 import useCRUD from "../../hooks/useCRUD";
 
-function User() {
+function Group() {
   const initialUsers = [
     {
-      id: 99,
-      email: "abdymalikmulky@gmail.com",
-      username: "abdymm",
-      pass: 123456789
+      id: 2,
+      name: "ADMIN",
+      description: "ADMIN of the system"
     },
     {
-      id: 88,
-      email: "anniswaz@gmail.com",
-      username: "annisw",
-      pass: 987654321
+      id: 1,
+      name: "SUPERADMIN",
+      description: "Su things"
     }
   ];
   const initialUser = {
     id: 0,
-    email: "",
-    username: "",
-    pass: ""
+    name: "",
+    description: ""
   };
   const [
     users,
     setUsers,
     user,
     setUser,
-    onAddUser,
-    onEditUser,
-    onUpdateUser,
-    onDeleteUser
+    onAdd,
+    onEdit,
+    onUpdate,
+    onDelete
   ] = useCRUD(initialUsers, initialUser);
 
   return (
     <Container>
-      <h1>USER</h1>
+      <h1>GROUP</h1>
       <Row>
         <Col>
           <AddOrEdit
             initialUser={initialUser}
             editedUser={user}
-            onAddUser={onAddUser}
-            onUpdateUser={onUpdateUser}
+            onAdd={onAdd}
+            onUpdate={onUpdate}
           />
         </Col>
         <Col>
           <List
             users={users}
-            onEditUser={onEditUser}
-            onDeleteUser={onDeleteUser}
+            onEdit={onEdit}
+            onDelete={onDelete}
           />
         </Col>
       </Row>
@@ -60,4 +57,4 @@ function User() {
   );
 }
 
-export default User;
+export default Group;
