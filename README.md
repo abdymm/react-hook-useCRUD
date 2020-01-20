@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Todo on this Repo
+
+- [x] CRUD Without Custom Hook
+- [x] CRUD With Custom Hook
+- [ ] CRUD With Custom Hook With Local Storage
+- [ ] CRUD With Custom Hook With Network
+- [ ] CRUD With Custom Hook With Both Local Storage & Network
+- [ ] CRUD With Custom Hook With Offline First
+
 ## Available Scripts
 
 In the project directory, you can run:
